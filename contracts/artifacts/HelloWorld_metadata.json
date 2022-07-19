@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld.sol": {
+			"keccak256": "0x00fe81f36dec80539e8a52b0bf7d0dbdf9fc067ff643691ec049639df8a9c795",
+			"urls": [
+				"bzz-raw://76f8c0e125b12ac347012bf9e5c4fab26a28ea57cb83f4f08e386711377f94c6",
+				"dweb:/ipfs/QmaXpAfuitYXjFRfwjCAaBPmsDFzBozj3vWTnEyg5uTtKK"
+			]
+		}
+	},
+	"version": 1
+}
