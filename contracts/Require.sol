@@ -26,7 +26,8 @@ contract Require{
 
     function receiveMoney() public payable{
         require(!paused , "Paused");
-        senderAddresses[msg.sender].totalBalance += msg.value;
+        assert(senderAddresses[msg.sender].totalBalance + uint64(msg.value) >= senderAddresses[msg.sender].totalBalance);
+        senderAddresses[msg.sender].totalBalance += uint64(msg.value);
         Payment memory payment =  Payment(msg.value,block.timestamp);
         senderAddresses[msg.sender].payments[senderAddresses[msg.sender].numPayments] = payment;
         senderAddresses[msg.sender].numPayments++;
@@ -70,7 +71,7 @@ contract Require{
         to.transfer(this.getBalance());
     }
 
-    function destroyThisShit (address payable _to) public {
+    function destroyThis (address payable _to) public {
         require(owner == msg.sender , "You Are Not Owner");
         selfdestruct(_to);
     }

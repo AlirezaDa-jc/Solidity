@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.13+commit.abaa5c0e"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 						"type": "address"
 					}
 				],
-				"name": "destroyThisShit",
+				"name": "destroyThis",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -173,11 +173,11 @@
 	},
 	"sources": {
 		"contracts/Require.sol": {
-			"keccak256": "0xa8464b1ee923d06de71aaca98f9756b607dc71706afb337899a166de6ed9ebb6",
+			"keccak256": "0x4131bec5acdf2e17daccddd6833b7b708ac331d5f6d82d4e6a8f48568040fb8b",
 			"license": "D.a",
 			"urls": [
-				"bzz-raw://394067bb98996e202ae7e8d6534dae03799e239046eb948168578865339a9136",
-				"dweb:/ipfs/QmbDrMDWbsPFSUEmWF5qL34qN2QLj4xnmqxZ6SxvDELH5b"
+				"bzz-raw://8918040e28fb4b91f26615d53257038dff05fd5df8e30c34d779dc1b738fb930",
+				"dweb:/ipfs/QmcPRLRKFnUJevkgqouFzBui6LPMiiT4xUm59z3jk9EhYU"
 			]
 		}
 	},

@@ -42,10 +42,10 @@
 	},
 	"sources": {
 		"contracts/HelloWorld.sol": {
-			"keccak256": "0x00fe81f36dec80539e8a52b0bf7d0dbdf9fc067ff643691ec049639df8a9c795",
+			"keccak256": "0x2320ad9d74598ebbf86c1cae762d40148cc7ace95a0c921ddac690df5075aa7f",
 			"urls": [
-				"bzz-raw://76f8c0e125b12ac347012bf9e5c4fab26a28ea57cb83f4f08e386711377f94c6",
-				"dweb:/ipfs/QmaXpAfuitYXjFRfwjCAaBPmsDFzBozj3vWTnEyg5uTtKK"
+				"bzz-raw://974fcf8d3e139d9f9fa8c2c29e9270f93d1a72770adc62bc28815f66a1656e7b",
+				"dweb:/ipfs/Qmc8ytiysnXVHd7TTjVCz9NanpMGCMozn3rtNGC1sWVZa3"
 			]
 		}
 	},
