@@ -94,6 +94,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "towei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
@@ -173,11 +192,11 @@
 	},
 	"sources": {
 		"contracts/Require.sol": {
-			"keccak256": "0x4131bec5acdf2e17daccddd6833b7b708ac331d5f6d82d4e6a8f48568040fb8b",
+			"keccak256": "0x92fed67c3d0f30e48eea07b53146155357fb47ee5e84bfd190d7162fef85d5a1",
 			"license": "D.a",
 			"urls": [
-				"bzz-raw://8918040e28fb4b91f26615d53257038dff05fd5df8e30c34d779dc1b738fb930",
-				"dweb:/ipfs/QmcPRLRKFnUJevkgqouFzBui6LPMiiT4xUm59z3jk9EhYU"
+				"bzz-raw://80ff5d7140900d0d9485c9ae46834cb60d254d1a9177233c03c727d400650e04",
+				"dweb:/ipfs/QmQdUCkRieEtcKkAfAcyrX9r4F1SgWRVWURWqTzn1J7JiA"
 			]
 		}
 	},

@@ -2,6 +2,11 @@ pragma solidity ^0.8.13;
 // SPDX-License-Identifier: D.a
 contract Require{
 
+    modifier checkOwner(){
+        require(owner == msg.sender , "You Are Not Owner");
+        _;
+    }
+
     struct Payment{
         uint amount;
         uint time;
@@ -65,14 +70,16 @@ contract Require{
         senderAddresses[msg.sender].totalBalance -= amount;
     }
 
-    function withdrawToAnotherAddress(address payable to) public{
-        require(owner == msg.sender , "You Are Not Owner");
+    function withdrawToAnotherAddress(address payable to) public checkOwner{
         require(!paused , "Paused");
         to.transfer(this.getBalance());
     }
 
-    function destroyThis (address payable _to) public {
-        require(owner == msg.sender , "You Are Not Owner");
+    function destroyThis (address payable _to) public checkOwner {
         selfdestruct(_to);
+    }
+
+    function towei(uint256 amount) public pure returns(uint256){
+        return amount * 1 ether;
     }
 }
